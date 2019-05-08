@@ -12,7 +12,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir ~/e2c-fslc-yocto
 $: cd ~/e2c-fslc-yocto
-$: repo init -u https://github.com/etwoc/e2c-bsp-platform.git -b master
+$: repo init -u https://github.com/etwoc/e2c-bsp-platform -b master
 $: repo sync -j4
 At the end of the commands you have every metadata you need to start work with.
 
